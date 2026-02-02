@@ -1,0 +1,40 @@
+[project]
+name = "mares"
+version = "2026.3.2"
+description = "mark's result class for safe value retrieval"
+readme = "README.md"
+authors = [
+    { name = "Mark Joshwel", email = "mark@joshwel.co" }
+]
+requires-python = ">=3.13"
+dependencies = []
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+license = "Unlicense OR 0BSD"
+license-files = ["LICENCING", "LICENSE-0BSD", "UNLICENSE"]
+
+[project.scripts]
+mares = "mares.mares:cli"
+
+[build-system]
+requires = ["uv_build>=0.9.28,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.37.3",
+    "mypy>=1.19.1",
+    "ruff>=0.14.14",
+]
