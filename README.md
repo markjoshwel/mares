@@ -160,7 +160,7 @@ return (
 ```
 pip install mares
 
-uv install mares
+uv add mares
 
 uvx mares inject path/to/file.py
 ```
