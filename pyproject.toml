@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "Mark Joshwel", email = "mark@joshwel.co" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = []
 classifiers = [
     "Development Status :: 5 - Production/Stable",
