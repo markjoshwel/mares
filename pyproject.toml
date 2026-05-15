@@ -1,6 +1,6 @@
 [project]
 name = "mares"
-version = "2026.3.2"
+version = "2026.5.15"
 description = "mark's result class for safe value retrieval"
 readme = "README.md"
 authors = [

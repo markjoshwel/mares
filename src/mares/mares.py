@@ -10,7 +10,7 @@ from pathlib import Path
 from sys import argv, stderr, stdin, stdout
 from typing import Callable, Generic, NoReturn, ParamSpec, TypeVar, cast
 
-__VERSION__ = "2026.2.3"
+__VERSION__ = "2026.5.15"
 
 
 T = TypeVar("T")

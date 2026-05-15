@@ -89,7 +89,7 @@ wheels = [
 
 [[package]]
 name = "mares"
-version = "2026.3.2"
+version = "2026.5.15"
 source = { editable = "." }
 
 [package.dev-dependencies]
